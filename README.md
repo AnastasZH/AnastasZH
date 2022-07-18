@@ -1,2 +1,2 @@
-# portfolio-dj
+# webredpanda
 landing page
