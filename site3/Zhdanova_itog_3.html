@@ -4,17 +4,18 @@
 	<title>Сайт-визитка Ждановой Л.Е.</title>
 	<meta charset="utf-8">
 	<meta name="keywords" content="личный сайт, математика, учитель, МАОУ №23, Екатеринбург">
-	<meta name="description" content="Личный сайт учителя математики Ждановой Ларисы Ефремовны">
+	<meta name="description" content="Личный сайт учителя математики Ждановой Ларисы Ефремовны. Контакты.">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="og:title" content="Жданова Лариса Ефремовна">
 	<meta name="og:image" content="https://xn--23-6kc3bfr2e.xn--80acgfbsl1azdqr.xn--p1ai/upload/sc23_new/images/thumb/1a/3d/1a3da2ff98fcd46b4a891057d7fc74da.png">
 	<meta name="og:type" content="website">
-	<link rel="stylesheet" type="text/css" href="Zhdanova_itog.css">
+	<link rel="stylesheet" type="text/css" href="Zhdanova_itog_3.css">
 	<link rel="stylesheet" type="text/css" href="Zhdanova_itog_print.css">
 	<link rel="stylesheet" type="text/css" href="Zhdanova_itog_screen.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 </head>
 <body>
 	<header>
@@ -25,39 +26,40 @@
 	</header>
 	<nav class="menu">
 		<ul>
-			<li><a href="#">Визитка</a></li>
-			<li><a href="Zhdanova_itog_2.html">Применение современных образовательных технологий  <wbr>на уроках математики</a></li>
-			<li><a href="Zhdanova_itog_3.html">Контакты и материалы</a></li>
+			<li><a href="Zhdanova_itog.html">Визитка</a></li>
+			<li><a href="Zhdanova_itog_2.html">Применение современных образовательных технологий на уроках математики</a></li>
+			<li><a href="#">Контакты и материалы</a></li>
 		</ul>
 	</nav>
-	<main>		
+	<main>
+		<h2>Контакты и материалы</h2>
 		<div class="content">
-			<h2>Визитка</h2>
-			<table class="info">
-				<tr>
-					<td rowspan="4"><img src="https://xn--23-6kc3bfr2e.xn--80acgfbsl1azdqr.xn--p1ai/upload/sc23_new/images/person/47/06/47066648caae2c0fdd68efcba8f274a0.jpg" width="210px" alt="Zhdanova"></td>
-					<td><b>Образование: </b>Уральский государственный педагогический университет, по специальности математика, квалификация учитель математики и информатики, 1996г.; <br>
-					ФГБОУ ВПО «Уральский государственный педагогический университет», квалификация (степень) магистр по направлению подготовки 050100 «Педагогическое образование», 2013г.</td>
-				</tr>
-				<tr>
-					<td><b>Категория: </b>Высшая</td>
-				</tr>
-				<tr>
-					<td><b>Особые награды: </b>Почетная грамота Министерства общего и профессионального образования Свердловской области (2011г.) </td>
-				</tr>
-				<tr>
-					<td><b>Общий стаж работы: </b>24 года</td>
-				</tr>
-			</table>
+			<div class="iframe">
+				<p>Полезные материалы в YouTube</p>
+            	<iframe src="https://www.youtube.com/embed/UYEaEko8gas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>	
+			<div class="form">
+                <form id="submit" method="post" action="mailto:nastyalovesspb@yandex.ru">
+                    <table>
+                    	<tr>
+                    		<td>Напишите письмо</td>
+                    	</tr>
+                    	<tr>
+                    		<td>
+                    			<input type="text" name="mail"placeholder="Вы можете написать сюда для связи с вами.">
+                    			<button type="submit" form="submit" action="mailto:nastyalovesspb@yandex.ru">Отправить</button>
+                    		</td>
+                    	</tr>
+                    </table>
+                </form>
+            </div>
 		</div>
-		<div class="pic">
-			<div class="animation1">
-				<img src="binom.jpg" height="350px">
-			</div>
-			<div class="clearing"> </div>
-			<div class="animation2">
-				<img src="mnemoz.jpg" height="300px">
-			</div>
+		<div class="contact_list">
+            <h3>Контакты</h3>
+                <ul class="contact_list">
+                    <li><a><i class="fas fa-phone"></i> Рабочий телефон: +7(343)301-10-23</a></li>
+                    <li><a href="mailto:nastyalovesspb@yandex.ru"><i class="far fa-envelope"></i> E-mail: nastyalovesspb@yandex.ru</a></li>
+                </ul>
 		</div>
 	</main>
 	<footer>

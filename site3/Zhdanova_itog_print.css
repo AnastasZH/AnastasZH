@@ -1,0 +1,52 @@
+@media print {
+	nav
+	{
+		width:  1200px;
+		display: inline;
+	}
+	nav>ul>li>a
+	{
+		border:none;
+	}
+	main
+	{
+		margin: 0;
+		width: 1200px;
+	}
+	h2
+	{
+		margin-left:-50px;
+	}
+	.article, .literature, .project 
+	{
+		margin: auto;
+		page-break-inside: auto;
+	}
+	.column1, .column2
+	{
+		display: inline;
+		float: none;
+	}
+	.content
+	{
+		width: 1200px;
+		margin: 0;
+	}
+	.content img
+	{
+		float: left;
+	}
+	.content td
+	{
+		padding:0 0 0 10px;
+	}
+	.pic
+	{
+		display: 	inline;	
+		margin: 	10px 50px 10px 100px;
+	}
+	footer 
+	{
+	display: none;
+	}
+}

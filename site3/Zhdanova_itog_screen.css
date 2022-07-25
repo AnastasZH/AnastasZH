@@ -1,0 +1,309 @@
+@media screen and (max-width: 1024px) and (min-width: 769px)
+  {
+    body, html
+    {
+      height: 100%;
+      width: 1024px;
+    }
+    nav
+    {
+      min-width: 1024px;
+      height: 100px;
+      box-sizing: border-box;
+      display: inline;
+      text-align: center;
+    }
+    nav>ul>li
+    {
+      display: inline; 
+    }
+    nav>ul>li>a
+    {
+      display: inline;
+      font-size: 18px;
+      padding: 5px;
+    }
+    .content
+    {
+      max-width: 1024px;
+      margin-top: 100px;
+      margin-left: 10px;
+    }
+    .article, .literature, .project 
+    {
+      margin: 5px 5px 50px 5px;
+      page-break-inside: auto;
+      max-width: 1024px;
+    }
+   .column1, .column2
+    {
+      display: inline;
+      float: none;
+    }
+    .pic
+    {
+      margin: 50px 50px 50px 70px;
+    }
+    .clearing
+    {
+      width: 200px;
+    }
+    div.contact_list, .iframe, div.form
+    {
+      max-width: 1024px;
+      height: auto;
+      float: none;
+      display: block;
+      margin-left: 10%;
+    }
+    iframe
+    {
+      width: 80%;
+      margin-right: 20px;
+    }
+    .bottom_nav
+    {
+      font-size: 15px;
+      padding-top: 0;
+    }
+    .copyright
+    {
+      text-align: center;
+    }
+  }
+@media screen and (max-width: 768px) and (min-width: 321px)
+{
+  body, html
+  {
+    height: 100%;
+    width: 768px;
+  }  
+  h1
+  {
+    padding: 10px 50px 50px 150px;
+  }
+  nav
+  {
+      width: 768px;
+      height: 100px;
+      box-sizing: border-box;
+      text-align: center;
+      margin-left: -20px;
+      padding:0;
+  }
+  nav>ul>li>a
+  {
+      font-size: 14px;
+      padding: 1px;
+  }
+  h2
+  {
+    margin-top: 150px;
+  }
+  .content
+    {
+      max-width: 768px;
+      margin-top: 150px;
+      margin-left: 0;
+      margin-bottom: 10%;
+    }
+  table
+    {
+      width: 90%;
+    }
+  td
+    {
+      font-size: 0.7em;
+      padding: 5px;
+    }
+  .article, .literature, .project 
+    {
+      margin: 5px 5px 30px 5px;
+      page-break-inside: auto;
+      max-width: 768px;
+    }
+  .column1, .column2
+    {
+      display: inline;
+      float: none;
+    }
+    .pic
+    {
+      margin: 10px 10px 10px 50px;
+    }
+    .clearing
+    {
+      width: 10px;
+    }
+     div.contact_list, .iframe, div.form
+    {
+      max-width: 768px;
+      height: auto;
+      float: none;
+      display: block;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    iframe
+    {
+      width: 80%;
+      margin-right: 20px;
+    }
+    footer
+    {
+      max-width: 768px;
+      height: 200px;
+    }
+    .bottom_nav
+    {
+      padding-top: 0;
+      width: 50%;
+
+    }
+    .bottom_nav>ul>li>a
+    {
+      font-size: 13px;
+      padding-right: 40px;
+      display: block;
+    } 
+    .copyright
+    {
+      text-align: center;
+      font-size: 13px;
+    }
+    .copyright p
+    {
+    padding: 80px 20px;  
+    }
+    
+}
+@media screen and (max-width: 320px)
+{
+  body, html
+  {
+    height: 100%;
+    max-width: 320px;
+  }  
+   h1
+  {
+    padding: 10px 50px 50px 150px;
+    font-size: 18px;
+  }
+  nav
+  {
+      width: 320px;
+      height: 100px;
+      box-sizing: border-box;
+      text-align: center;
+      margin-left: 4px;
+      padding:0;
+  }
+  nav>ul>li>a
+  {
+      font-size: 10px;
+      padding: 1px;
+  }
+  h2
+  {
+    margin-top: 120px;
+    font-size: 15px;
+  }
+  .content
+    {
+      max-width: 320px;
+      margin-top: 150px;
+      margin-left: 10px;
+    }
+    td
+    {
+      font-size: 10px;
+      padding: 1px;
+    }
+    td>img
+    {
+      width: 105px;
+    }
+  .article, .literature, .project
+    {
+      margin: 5px 10px 40px 5px;
+      page-break-inside: auto;
+      max-width: 320px;
+      font-size: 12px;
+    }
+  .column1, .column2, .column2>p, .column1>p
+    {
+      display: inline;
+      float: none;
+      font-size: 12px;
+      margin: 5px 10px 10px 5px;
+    }
+  .project>p>a>img
+    {
+      width: 280px;
+      height: 200px;
+    }
+    .pic
+    {
+      margin: 10px;
+    }
+    .clearing
+    {
+      width: 50px;
+    }
+    .animation1>img, .animation2>img
+    {
+      height: 100px;
+    }
+  div.contact_list, .iframe, div.form, .iframe>p 
+    {
+      max-width: 320px;
+      height: auto;
+      float: none;
+      display: block;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 18px;
+      margin-top: -100px;
+    }
+    div.contact_list
+    {
+      margin-top: -220px;
+    }
+    h3
+    {
+      font-size: 15px;
+    }
+    ul.contact_list>li
+    {
+      font-size: 13px;
+      padding: 0;
+      margin:0;
+    }
+    iframe
+    {
+      max-width: 300px;
+      margin-right: 20px;
+    }
+    footer
+    {
+      max-width: 320px;
+      height: 200px;
+    }
+    .bottom_nav
+    {
+      padding-top: 0;
+      width: 50%;
+    }
+    .bottom_nav>ul>li>a
+    {
+      font-size: 8px;
+      padding-right: 40px;
+      display: block;
+    } 
+    .copyright p
+    {
+    padding: 80px 20px;  
+    text-align: center;
+    font-size: 8px;
+    }
+}
