@@ -1,0 +1,243 @@
+/***Адаптация***/
+@media screen and (max-width: 2560px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (max-width: 1440px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1280px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .title-h2
+    {
+        font-size: 30px;
+    }
+    .title-header
+    {
+        margin-left: 100px;
+    }
+    .nav-link
+    {
+        font-size: 15px;
+    }
+    .title-h3, .text__style, .service-text
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1024px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .title-h3, .text__style, .service-text
+    {
+        font-size: 15px;
+    }
+    .service
+    {
+    	display: grid;
+    	grid-template:1fr/1fr 1fr 1fr 1fr ;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 600px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .header
+    {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-header
+    {
+        margin-left: 50px;
+    }
+    .box-about-back, .box-about-front
+    {
+        width: 150px;
+        margin: 0;
+    }
+    .box-about-front
+    {
+        margin-right: 45px;   
+    }
+    .text
+    {
+        font-size: 20px;
+        margin-left: -50px;
+    }
+    .about-list
+    {
+        font-size: 20px;
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .progress-bar
+    {
+       margin-top: 40px;
+       margin-left: -250px;
+    }
+    .service
+    {
+        margin-left: -100px;
+    }
+    
+
+    .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
+    {
+        width: 250px;
+    }
+    .portfolio-thumb
+    {
+        padding: 10px;
+    }
+    .title-footer
+    {
+        margin-left: 50px;
+        margin-right: 20px;
+
+    }
+    .title-h2
+    {
+        font-size: 25px;
+    }
+    .nav-social
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .nav-social-point
+    {
+        margin: 0 auto;
+    }
+    .nav-link-point
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 425px;
+        margin: 0 auto;
+    }
+    .main
+    {
+        height: 550px;
+    }
+    .header
+    {
+        padding: 10px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template:1fr/1fr;
+        margin-left: 200px;
+    }
+    .nav
+    {
+        width: 400px;
+        margin-left: 60px;
+    }
+    .nav-item
+    {
+        margin: 0px 0px 0px 15px
+    }
+    .title-h1
+    {
+        margin-left: 100px;
+        width: 400px;
+    }
+    .main-after
+    {
+        margin-left: 150px;
+        margin-right: -10px;
+    }
+    .text
+    {
+        font-size: 15px;
+        margin-left: -50px;
+    }
+    .about
+    {
+        margin-left: 110px;
+        width: 100%;
+    }
+    .about-list
+    {
+        font-size: 15px;
+        flex-direction: column;  
+        align-items: center; 
+    }
+     .box-about-back, .box-about-front
+    {
+        width: 100px;
+        margin: 0;
+    }
+    .box-about-front
+    {
+        margin-right: 45px;   
+        margin-bottom: 170px;
+    }
+    .box-about-item
+    {
+        max-height: 600px;
+    }
+    .services
+    {
+        margin-left: 48px;
+        width: 100%;
+    }
+    .service
+    {
+        display: grid;
+        grid-template:1fr/1fr;
+      margin-left: 0px;
+    }
+    .form-request
+    {
+        width: 100%;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
