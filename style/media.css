@@ -240,4 +240,9 @@
         max-width: 320px;
         margin: 0 auto;
     }
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* для ie8 */
+       }
 }
