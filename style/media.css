@@ -244,6 +244,15 @@
     {
         width:100%;
     }
+    .header
+    {
+        margin-left: 50px;
+    }
+    .title-h1 
+    {
+    margin-left: 0;
+    width: 300px;
+    }
     img {
         max-width: 100%;
         height: auto;
