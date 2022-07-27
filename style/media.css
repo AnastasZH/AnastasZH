@@ -235,18 +235,33 @@
 }
 @media screen and (max-width: 320px)
 {
-    .main, .about, .services, .portfolio, .form-request, .contacts
+     .main, .about, .services, .portfolio, .form-request, .contacts
     {
         max-width: 300px;
         margin: 0 auto;
+        width: 50%;
     }
     .main
     {
-        width:100%;
+        
     }
     .header
     {
-        margin-left: 50px;
+        margin: 10px 10px 10px 10px;
+        width: 100px;
+    }
+    .header-logo 
+    {
+    width: 100px;
+    }
+    .nav
+    {
+        width: 300px;
+        margin-left: 60px;
+    }
+    .nav-link
+    {
+        font-size: 10px;
     }
     .title-h1 
     {
