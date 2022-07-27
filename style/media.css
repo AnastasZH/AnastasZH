@@ -237,12 +237,12 @@
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
-        max-width: 320px;
+        max-width: 300px;
         margin: 0 auto;
     }
     .main
     {
-        width:60%;
+        width:100%;
     }
     img {
         max-width: 100%;
