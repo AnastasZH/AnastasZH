@@ -51,10 +51,18 @@
     {
         font-size: 15px;
     }
+    .title-h2
+    {
+        font-size: 24px;
+    }
+    .box-about-item
+    {
+        font-size: 70%;
+    }
     .service
     {
-    	display: grid;
-    	grid-template:1fr/1fr 1fr 1fr 1fr ;
+        display: grid;
+        grid-template:1fr/1fr 1fr 1fr 1fr ;
     }
 }
 @media screen and (max-width: 768px)
@@ -62,8 +70,7 @@
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
         max-width: 600px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin: 0 auto;
     }
     .header
     {
@@ -73,7 +80,7 @@
     }
     .title-header
     {
-        margin-left: 50px;
+        margin: 0 auto;
     }
     .box-about-back, .box-about-front
     {
@@ -98,7 +105,7 @@
     .progress-bar
     {
        margin-top: 40px;
-       margin-left: -250px;
+       margin-left: -100px;
     }
     .service
     {
@@ -146,6 +153,11 @@
         max-width: 600px;
         margin: 0 auto;
     }
+    .header-logo 
+    {
+    width: 100px;
+    }
+    
 }
 @media screen and (max-width: 480px)
 {
@@ -165,26 +177,27 @@
         justify-items: center;
         align-items: center;
         grid-template:1fr/1fr;
-        margin-left: 200px;
+        margin: 0 auto;
     }
     .nav
     {
         width: 400px;
-        margin-left: 60px;
+         margin: 0 auto;
+         justify-content: space-around;
     }
     .nav-item
     {
         margin: 0px 0px 0px 15px
     }
+    
     .title-h1
     {
-        margin-left: 100px;
+        margin: 0 auto;
         width: 400px;
     }
     .main-after
     {
-        margin-left: 150px;
-        margin-right: -10px;
+        margin: 0 auto;
     }
     .text
     {
@@ -193,7 +206,7 @@
     }
     .about
     {
-        margin-left: 110px;
+        margin: 0 auto;
         width: 100%;
     }
     .about-list
@@ -215,10 +228,11 @@
     .box-about-item
     {
         max-height: 600px;
+        margin: 0 auto;
     }
     .services
     {
-        margin-left: 48px;
+       margin: 0 auto;
         width: 100%;
     }
     .service
@@ -227,10 +241,28 @@
         grid-template:1fr/1fr;
       margin-left: 0px;
     }
+       .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
+    {
+        width: 100%;
+    }
+    .portfolio-thumb
+    {
+        padding: 10px;
+    }
     .form-request
     {
         width: 100%;
-        margin-left: 50px;
+        margin: 0 auto;
+    }
+    .footer
+    {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    }
+    .title-h2 
+    {
+    font-size: 18px;
     }
 }
 @media screen and (max-width: 320px)
@@ -239,38 +271,90 @@
     {
         max-width: 300px;
         margin: 0 auto;
-        width: 50%;
+        width: 100%;
     }
     .main
     {
-        
+        height: 350px;
+        padding-bottom: 100px;
     }
     .header
     {
-        margin: 10px 10px 10px 10px;
-        width: 100px;
+       margin-bottom: 30px;
+    }
+    .title-h1
+    {
+        font-size: 40px;
+        margin-left: 0;
+    width: 300px;
+    }
+    .title-h2
+    {
+        font-size: 15px;
     }
     .header-logo 
     {
-    width: 50%;
+    width: 100px;
     }
     .nav
     {
         width: 300px;
-        margin-left: 60px;
+        margin: 0 auto;
     }
     .nav-link
     {
         font-size: 10px;
     }
-    .title-h1 
+    .main-after 
     {
-    margin-left: 0;
-    width: 300px;
+        margin-top: 20px;
+        height: 100px;
     }
-    img {
-        max-width: 100%;
-        height: auto;
-        width: auto\9; /* для ie8 */
-       }
+    .title-h4 
+    {
+    font-size: 15px;    
+    }
+    .text {
+    font-size: 12px;
+    margin-left: 10px;
+    }
+    .service-items {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    }
+    .portfolio-list {
+    display: grid;
+    grid-template: 1fr /1fr;
+    }
+    iframe
+    {
+        height: 300px;
+    }
+    .title-footer
+    {
+        margin: 0 auto;
+
+    }
+    .footer-nav {
+    
+    padding-top: 20px;
+    }
+    .nav-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .nav-link-point 
+    {
+    font-size: 10px;
+    }
+    .nav-copyright 
+    {
+    font-size: 7px;
+    }
+
 }
