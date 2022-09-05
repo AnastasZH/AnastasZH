@@ -175,24 +175,21 @@ body
 .info--block
 {
     width: 100%;
-}
-.info--block
-{
     margin-bottom: 5px;
     padding-top: 30px;
 }
-
 .img-injection, .img-extrusion
 {
     width: 931px;
     margin: 0 auto;
-    padding-bottom: 270px;
+   /*padding-bottom: 270px;*/
    
 }
-.info--block__card
+.info__img
 {
-    margin-top: 100px;
+    padding-bottom: 250px;
 }
+
 .info--block__buttonleft
 {
     margin-bottom: 226px;
