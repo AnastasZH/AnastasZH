@@ -272,6 +272,7 @@ body
 {
     border: none;
 }
+
 .works
 {
     margin-bottom: 25px;
@@ -304,7 +305,7 @@ body
 
 .button--text
 {
-    text-align: center;
+    text-align: inherit;
     align-items: center;
     padding: 0.9rem 1.2rem;
     font-weight: 700;
