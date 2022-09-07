@@ -522,6 +522,22 @@
         padding: 0px 45px;
     }
 }
+@media screen and (min-width: 376px ) and (max-width: 391px )
+{
+    .header, .main, .info, .price, .works, .footer
+    {
+        max-width: 390px;
+        margin: 0 auto;
+    } 
+    .img-injection, .img-extrusion 
+    {
+        width: 300px;
+    }
+    .info__img
+    {
+        padding-bottom: 230px;
+    }
+}
 @media screen and (min-width: 321px ) and (max-width: 376px )
 {
     .header, .main, .info, .price, .works, .footer
