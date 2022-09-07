@@ -522,7 +522,7 @@
         padding: 0px 45px;
     }
 }
-@media screen and (max-width: 375px )
+@media screen and (min-width: 321px ) and (max-width: 376px )
 {
     .header, .main, .info, .price, .works, .footer
     {
@@ -532,7 +532,7 @@
     .img-injection, .img-extrusion 
     {
         width: 270px;
-       
+        margin-bottom: 60px;
     }
     .info__img
     {
