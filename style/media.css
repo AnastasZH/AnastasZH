@@ -157,6 +157,9 @@
     }
     .header
     {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -197,8 +200,6 @@
         display: grid;
         grid-template: 2fr/1fr 1fr;
     }
-    
-
     .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
     {
         width: 250px;
