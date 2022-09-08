@@ -103,7 +103,7 @@ body
 	border: solid 1px yellow;
 	padding: 0px 40px;
 	background: #237574;
-	
+	display:inline-block;	
 }
 .main-button:hover
 {
