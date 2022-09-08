@@ -65,7 +65,7 @@
         grid-template:1fr/1fr 1fr 1fr 1fr ;
     }
 }
-@media screen and (max-width: 800px) and (max-width: 835px)
+@media screen and (min-width: 800px) and (max-width: 835px)
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
