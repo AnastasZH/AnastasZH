@@ -65,6 +65,89 @@
         grid-template:1fr/1fr 1fr 1fr 1fr ;
     }
 }
+@media screen and (max-width: 800px) and (max-width: 835px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .header
+    {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-header
+    {
+        margin: 0 auto;
+    }
+    .box-about-back, .box-about-front
+    {
+        width: 150px;
+        margin: 0;
+    }
+    .box-about-front
+    {
+        margin-right: 45px;   
+    }
+    .text
+    {
+        font-size: 20px;
+        margin-left: -50px;
+    }
+    .about-list
+    {
+        font-size: 20px;
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .progress-bar
+    {
+       margin-top: 40px;
+       margin-left: -100px;
+    }
+    .service
+    {
+        display: grid;
+        grid-template: 2fr/1fr 1fr;
+    }
+    
+
+    .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
+    {
+        width: 250px;
+    }
+    .portfolio-thumb
+    {
+        padding: 10px;
+    }
+    .title-footer
+    {
+        margin-left: 50px;
+        margin-right: 20px;
+
+    }
+    .title-h2
+    {
+        font-size: 25px;
+    }
+    .nav-social
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .nav-social-point
+    {
+        margin: 0 auto;
+    }
+    .nav-link-point
+    {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 768px)
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
@@ -109,7 +192,8 @@
     }
     .service
     {
-        margin-left: -100px;
+        display: grid;
+        grid-template: 2fr/1fr 1fr;
     }
     
 
