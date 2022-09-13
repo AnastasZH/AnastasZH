@@ -269,8 +269,8 @@
     .nav
     {
         width: 400px;
-         margin: 0 auto;
-         justify-content: space-around;
+        margin: 0 auto;
+        justify-content: space-between;
     }
     .nav-item
     {
