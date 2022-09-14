@@ -587,7 +587,7 @@
     {
         font-size: 40px;
         margin-left: 0;
-    width: 300px;
+        width: 300px;
     }
     .title-h2
     {
@@ -595,11 +595,10 @@
     }
     .header-logo 
     {
-    width: 100px;
+        width: 100px;
     }
     .nav
     {
-        width: 300px;
         margin: 0 auto;
         justify-content: space-between;
     }
