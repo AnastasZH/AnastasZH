@@ -248,6 +248,10 @@
     {
         margin: 20px auto;
     }
+     .box-about-front
+    {
+        margin-right: 0px;   
+    }
     
 }
 @media screen and (min-width: 378px) and (max-width: 480px)
@@ -313,8 +317,7 @@
     }
     .box-about-front
     {
-        margin-right: 45px;   
-        margin-bottom: 170px;
+        margin-bottom: 80px;
     }
     .box-about-item
     {
