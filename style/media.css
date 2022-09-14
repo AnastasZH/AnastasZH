@@ -6,7 +6,6 @@
         max-width: 1440px;
         margin: 0 auto;
     }
-    
 }
 @media screen and (max-width: 1440px)
 {
@@ -112,8 +111,6 @@
         display: grid;
         grid-template: 2fr/1fr 1fr;
     }
-    
-
     .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
     {
         width: 250px;
@@ -126,7 +123,6 @@
     {
         margin-left: 50px;
         margin-right: 20px;
-
     }
     .title-h2
     {
@@ -212,7 +208,6 @@
     {
         margin-left: 50px;
         margin-right: 20px;
-
     }
     .title-h2
     {
@@ -284,7 +279,6 @@
     {
         margin: 0px 0px 0px 15px
     }
-    
     .title-h1
     {
         margin: 0 auto;
@@ -326,7 +320,7 @@
     }
     .services
     {
-       margin: 0 auto;
+        margin: 0 auto;
         width: 100%;
     }
     .service
@@ -350,13 +344,13 @@
     }
     .footer
     {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
     }
     .title-h2 
     {
-    font-size: 18px;
+        font-size: 18px;
     }
 }
 @media screen and (min-width: 377px) and (max-width: 426px) 
@@ -387,7 +381,7 @@
     }
     .header-logo 
     {
-    width: 100px;
+        width: 100px;
     }
     .nav
     {
@@ -406,12 +400,13 @@
     }
     .title-h4 
     {
-    font-size: 15px;    
+        font-size: 15px;    
     }
-    .text {
-    font-size: 12px;
-    margin-left: 10px;
-    }
+    .text 
+    {
+        font-size: 12px;
+        margin-left: 10px;
+     }
      .service
     {
         display: grid;
@@ -419,16 +414,16 @@
         margin-left: 0px;
     }
     .service-items {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     .portfolio-list {
-    display: grid;
-    grid-template: 1fr /1fr;
+        display: grid;
+        grid-template: 1fr /1fr;
     }
     iframe
     {
@@ -444,12 +439,12 @@
     }
     .footer-nav 
     {
-    padding-top: 20px;
+        padding-top: 20px;
     }
     .nav-social {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .nav-link-point 
     {
@@ -461,112 +456,6 @@
     }
 }
 @media screen and (min-width: 321px) and (max-width: 376px) 
-{
-     .main, .about, .services, .portfolio, .form-request, .contacts, 
-    {
-        max-width: 300px;
-        margin: 0 auto;
-        width: 100%;
-    }
-    .main
-    {
-        height: 350px;
-        padding-bottom: 100px;
-    }
-    .header
-    {
-       margin-bottom: 30px;
-    }
-    .title-h1
-    {
-        font-size: 40px;
-        margin-left: 0;
-    width: 300px;
-    }
-    .title-h2
-    {
-        font-size: 15px;
-    }
-    .header-logo 
-    {
-    width: 100px;
-    }
-    .nav
-    {
-        width: 300px;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
-    .nav-link
-    {
-        font-size: 10px;
-    }
-    .main-after 
-    {
-        margin-top: 20px;
-        height: 100px;
-    }
-    .title-h4 
-    {
-    font-size: 15px;    
-    }
-    .text {
-    font-size: 12px;
-    margin-left: 10px;
-    }
-     .service
-    {
-        display: grid;
-        grid-template:1fr/1fr;
-        margin-left: 0px;
-    }
-    .service-items 
-    {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    }
-    .portfolio-list 
-    {
-    display: grid;
-    grid-template: 1fr /1fr;
-    }
-    iframe
-    {
-        height: 300px;
-    }
-    .title-footer
-    {
-        margin: 0 auto;
-
-    }
-    .footer
-    {
-        padding: 0px;
-    }
-    .footer-nav 
-    {
-        padding-top: 20px;
-    }
-    .nav-social {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    }
-    .nav-link-point 
-    {
-    font-size: 10px;
-    }
-    .nav-copyright 
-    {
-    font-size: 7px;
-    }
-}
-
-@media screen and (max-width: 320px)
 {
      .main, .about, .services, .portfolio, .form-request, .contacts, 
     {
@@ -599,6 +488,7 @@
     }
     .nav
     {
+        width: 300px;
         margin: 0 auto;
         justify-content: space-between;
     }
@@ -613,11 +503,11 @@
     }
     .title-h4 
     {
-    font-size: 15px;    
+        font-size: 15px;    
     }
     .text {
-    font-size: 12px;
-    margin-left: 10px;
+        font-size: 12px;
+        margin-left: 10px;
     }
      .service
     {
@@ -634,9 +524,10 @@
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
-    .portfolio-list {
-    display: grid;
-    grid-template: 1fr /1fr;
+    .portfolio-list 
+    {
+        display: grid;
+        grid-template: 1fr /1fr;
     }
     iframe
     {
@@ -650,21 +541,36 @@
     {
         padding: 0px;
     }
-    .footer-nav {
+    .footer-nav 
+    {
         padding-top: 20px;
-        }
-    .nav-social {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     }
+    .nav-social {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
     .nav-link-point 
     {
-    font-size: 10px;
+        font-size: 10px;
     }
     .nav-copyright 
     {
-    font-size: 7px;
+        font-size: 7px;
     }
-
+}
+@media screen and (max-width: 320px)
+{
+     .main, .about, .services, .portfolio, .form-request, .contacts, 
+    {
+        max-width: 300px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .nav-social {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
