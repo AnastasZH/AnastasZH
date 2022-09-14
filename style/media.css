@@ -354,7 +354,7 @@
 }
 @media screen and (min-width: 377px) and (max-width: 426px) 
 {
-     .main, .about, .services, .portfolio, .form-request, .contacts
+     .main, .about, .services, .portfolio, .form-request, .contacts,
     {
         max-width: 350px;
         margin: 0 auto;
@@ -387,6 +387,7 @@
     {
         width: 350px;
         margin: 0 auto;
+        justify-content: space-between;
     }
     .nav-link
     {
@@ -424,10 +425,13 @@
     .title-footer
     {
         margin: 0 auto;
-
     }
-    .footer-nav {
-    
+    .footer
+    {
+        padding: 0px;
+    }
+    .footer-nav 
+    {
     padding-top: 20px;
     }
     .nav-social {
@@ -446,7 +450,7 @@
 }
 @media screen and (min-width: 321px) and (max-width: 376px) 
 {
-     .main, .about, .services, .portfolio, .form-request, .contacts
+     .main, .about, .services, .portfolio, .form-request, .contacts, 
     {
         max-width: 300px;
         margin: 0 auto;
@@ -479,6 +483,7 @@
     {
         width: 300px;
         margin: 0 auto;
+        justify-content: space-between;
     }
     .nav-link
     {
@@ -497,7 +502,8 @@
     font-size: 12px;
     margin-left: 10px;
     }
-    .service-items {
+    .service-items 
+    {
     margin-right: 10px;
     margin-left: 10px;
     padding-left: 5px;
@@ -505,7 +511,8 @@
     padding-bottom: 10px;
     margin-bottom: 10px;
     }
-    .portfolio-list {
+    .portfolio-list 
+    {
     display: grid;
     grid-template: 1fr /1fr;
     }
@@ -518,9 +525,13 @@
         margin: 0 auto;
 
     }
-    .footer-nav {
-    
-    padding-top: 20px;
+    .footer
+    {
+        padding: 0px;
+    }
+    .footer-nav 
+    {
+        padding-top: 20px;
     }
     .nav-social {
     display: flex;
@@ -539,7 +550,7 @@
 
 @media screen and (max-width: 320px)
 {
-     .main, .about, .services, .portfolio, .form-request, .contacts
+     .main, .about, .services, .portfolio, .form-request, .contacts, 
     {
         max-width: 300px;
         margin: 0 auto;
@@ -572,6 +583,7 @@
     {
         width: 300px;
         margin: 0 auto;
+        justify-content: space-between;
     }
     .nav-link
     {
@@ -609,12 +621,14 @@
     .title-footer
     {
         margin: 0 auto;
-
+    }
+    .footer
+    {
+        padding: 0px;
     }
     .footer-nav {
-    
-    padding-top: 20px;
-    }
+        padding-top: 20px;
+        }
     .nav-social {
     display: flex;
     flex-direction: row;
