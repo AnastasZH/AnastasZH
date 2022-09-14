@@ -244,6 +244,10 @@
     {
     width: 100px;
     }
+    .title-h1
+    {
+        margin: 20px auto;
+    }
     
 }
 @media screen and (min-width: 378px) and (max-width: 480px)
@@ -326,7 +330,7 @@
     {
         display: grid;
         grid-template:1fr/1fr;
-      margin-left: 0px;
+        margin-left: 0px;
     }
        .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
     {
@@ -405,6 +409,12 @@
     .text {
     font-size: 12px;
     margin-left: 10px;
+    }
+     .service
+    {
+        display: grid;
+        grid-template:1fr/1fr;
+        margin-left: 0px;
     }
     .service-items {
     margin-right: 10px;
@@ -501,6 +511,12 @@
     .text {
     font-size: 12px;
     margin-left: 10px;
+    }
+     .service
+    {
+        display: grid;
+        grid-template:1fr/1fr;
+        margin-left: 0px;
     }
     .service-items 
     {
@@ -602,13 +618,20 @@
     font-size: 12px;
     margin-left: 10px;
     }
-    .service-items {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+     .service
+    {
+        display: grid;
+        grid-template:1fr/1fr;
+        margin-left: 0px;
+    }
+    .service-items 
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     .portfolio-list {
     display: grid;
