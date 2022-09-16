@@ -627,9 +627,10 @@
         font-size: 12px;
         margin-left: 10px;
     }
-    .box-about-front 
+    .box-about-back, .box-about-front 
     {
-        margin-bottom: 95px;
+        width: 120px;
+        margin: 0 auto;
     }
      .service
     {
