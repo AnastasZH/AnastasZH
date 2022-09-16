@@ -378,6 +378,10 @@
         grid-template:1fr/1fr;
         margin: 0 auto;
     }
+     .header-logo 
+    {
+        width: 70px;
+    }
     .nav
     {
         width: 350px;
@@ -493,7 +497,7 @@
     }
     .header-logo 
     {
-         width: 100px;
+        width: 70px;
     }
     .nav
     {
@@ -599,7 +603,7 @@
     }
     .header-logo 
     {
-        width: 100px;
+        width: 70px;
     }
     .nav
     {
@@ -654,13 +658,15 @@
     {
         padding: 0px;
     }
-    .footer-nav {
+    .footer-nav 
+        {
         padding-top: 20px;
         }
-    .nav-social {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    .nav-social 
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .nav-link-point 
     {
