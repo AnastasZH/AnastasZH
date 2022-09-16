@@ -112,8 +112,6 @@
         display: grid;
         grid-template: 2fr/1fr 1fr;
     }
-    
-
     .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
     {
         width: 250px;
@@ -152,7 +150,7 @@
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
-        max-width: 768px;
+        max-width: 600px;
         margin: 0 auto;
     }
     .header
@@ -242,22 +240,39 @@
     }
     .header-logo 
     {
-    width: 100px;
+        width: 100px;
     }
     .title-h1
     {
         margin: 20px auto;
     }
-     .box-about-front
+    .box-about-item
+    {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .box-about-front
     {
         margin-right: 0px;   
     }
+    .service
+    {
+        margin: 0 auto;
+    }
+    .portfolio-list
+    {
+        margin: 0 auto;
+    }
+    .nav-social
+    {
+        flex-direction: row;
+    }
 }
-@media screen and (min-width: 390px) and (max-width: 480px)
+@media screen and (min-width: 425px) and (max-width: 480px)
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
-        max-width: 390px;
+        max-width: 400px;
         margin: 0 auto;
     }
     .main
@@ -275,7 +290,7 @@
     }
     .nav
     {
-        width: 370px;
+        width: 380px;
         margin: 0 auto;
         justify-content: space-between;
     }
@@ -287,7 +302,7 @@
     .title-h1
     {
         margin: 0 auto;
-        width: 370px;
+        width: 380px;
     }
     .main-after
     {
@@ -325,7 +340,7 @@
     }
     .services
     {
-       margin: 0 auto;
+        margin: 0 auto;
         width: 100%;
     }
     .service
@@ -349,25 +364,29 @@
     }
     .footer
     {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
     }
     .title-h2 
     {
-    font-size: 18px;
+        font-size: 18px;
+    }
+    .nav-link-point
+    {
+        font-size: 13px;
     }
 }
-@media screen and (min-width: 376px) and (max-width: 389px)
+@media screen and (min-width: 390px) and (max-width: 424px)
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
-        max-width: 370px;
+        max-width: 390px;
         margin: 0 auto;
     }
     .main
     {
-        height: 550px;
+        height: 450px;
     }
     .header
     {
@@ -378,7 +397,7 @@
         grid-template:1fr/1fr;
         margin: 0 auto;
     }
-     .header-logo 
+    .header-logo 
     {
         width: 70px;
     }
@@ -395,8 +414,9 @@
     
     .title-h1
     {
-        margin: 0 auto;
+        margin-bottom: 100px;
         width: 390px;
+        font-size: 40px;
     }
     .main-after
     {
@@ -418,7 +438,7 @@
         flex-direction: column;  
         align-items: center; 
     }
-     .box-about-back, .box-about-front
+    .box-about-back, .box-about-front
     {
         width: 100px;
         margin: 0;
@@ -432,18 +452,32 @@
         max-height: 600px;
         margin: 0 auto;
     }
-    .services
-    {
-       margin: 0 auto;
-        width: 100%;
-    }
     .service
     {
         display: grid;
         grid-template:1fr/1fr;
         margin-left: 0px;
     }
-       .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
+    .services
+    {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template: 1fr/1fr;
+        margin-left: 0px;
+    }
+    .service-items
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+    .portfolio-list 
+    {
+        display: grid;
+        grid-template: 1fr /1fr;
+    }
+    .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
     {
         width: 100%;
     }
@@ -458,13 +492,18 @@
     }
     .footer
     {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
     }
     .title-h2 
     {
-    font-size: 18px;
+        font-size: 18px;
+    }
+    .title-footer 
+    {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
