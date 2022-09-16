@@ -252,9 +252,8 @@
     {
         margin-right: 0px;   
     }
-    
 }
-@media screen and (min-width: 378px) and (max-width: 480px)
+@media screen and (min-width: 415px) and (max-width: 480px)
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
@@ -359,8 +358,113 @@
     font-size: 18px;
     }
 }
+@media screen and (min-width: 390px) and (max-width: 414px)
+{
+    .main, .about, .services, .portfolio, .form-request, .contacts
+    {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+    .main
+    {
+        height: 550px;
+    }
+    .header
+    {
+        padding: 10px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template:1fr/1fr;
+        margin: 0 auto;
+    }
+    .nav
+    {
+        width: 390px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .nav-item
+    {
+        margin: 0px 0px 0px 15px
+    }
+    
+    .title-h1
+    {
+        margin: 0 auto;
+        width: 390px;
+    }
+    .main-after
+    {
+        margin: 0 auto;
+    }
+    .text
+    {
+        font-size: 15px;
+        margin-left: -50px;
+    }
+    .about
+    {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .about-list
+    {
+        font-size: 15px;
+        flex-direction: column;  
+        align-items: center; 
+    }
+     .box-about-back, .box-about-front
+    {
+        width: 100px;
+        margin: 0;
+    }
+    .box-about-front
+    {
+        margin-bottom: 80px;
+    }
+    .box-about-item
+    {
+        max-height: 600px;
+        margin: 0 auto;
+    }
+    .services
+    {
+       margin: 0 auto;
+        width: 100%;
+    }
+    .service
+    {
+        display: grid;
+        grid-template:1fr/1fr;
+        margin-left: 0px;
+    }
+       .portfolio-work1, .portfolio-work2, .portfolio-work3, .portfolio-work4
+    {
+        width: 100%;
+    }
+    .portfolio-thumb
+    {
+        padding: 10px;
+    }
+    .form-request
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer
+    {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    }
+    .title-h2 
+    {
+    font-size: 18px;
+    }
+}
 
-@media screen and (min-width: 321px) and (max-width: 377px) 
+@media screen and (min-width: 321px) and (max-width: 389px) 
 {
      .main, .about, .services, .portfolio, .form-request, .contacts, 
     {
