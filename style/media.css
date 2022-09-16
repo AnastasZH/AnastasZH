@@ -253,11 +253,11 @@
         margin-right: 0px;   
     }
 }
-@media screen and (min-width: 415px) and (max-width: 480px)
+@media screen and (min-width: 390px) and (max-width: 480px)
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
-        max-width: 370px;
+        max-width: 390px;
         margin: 0 auto;
     }
     .main
@@ -275,7 +275,7 @@
     }
     .nav
     {
-        width: 400px;
+        width: 370px;
         margin: 0 auto;
         justify-content: space-between;
     }
@@ -287,7 +287,7 @@
     .title-h1
     {
         margin: 0 auto;
-        width: 400px;
+        width: 370px;
     }
     .main-after
     {
@@ -358,11 +358,11 @@
     font-size: 18px;
     }
 }
-@media screen and (min-width: 390px) and (max-width: 414px)
+@media screen and (min-width: 376px) and (max-width: 389px)
 {
     .main, .about, .services, .portfolio, .form-request, .contacts
     {
-        max-width: 390px;
+        max-width: 370px;
         margin: 0 auto;
     }
     .main
@@ -380,7 +380,7 @@
     }
     .nav
     {
-        width: 390px;
+        width: 350px;
         margin: 0 auto;
         justify-content: space-between;
     }
@@ -464,11 +464,11 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 389px) 
+@media screen and (min-width: 321px) and (max-width: 375px) 
 {
      .main, .about, .services, .portfolio, .form-request, .contacts, 
     {
-        max-width: 300px;
+        max-width: 320px;
         margin: 0 auto;
         width: 100%;
     }
@@ -485,7 +485,7 @@
     {
         font-size: 40px;
         margin-left: 0;
-    width: 300px;
+        width: 300px;
     }
     .title-h2
     {
@@ -493,7 +493,7 @@
     }
     .header-logo 
     {
-    width: 100px;
+         width: 100px;
     }
     .nav
     {
@@ -557,16 +557,16 @@
     }
     .nav-social {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    }
+        flex-direction: row;
+        flex-wrap: wrap;
+         }
     .nav-link-point 
     {
-    font-size: 10px;
+         font-size: 10px;
     }
     .nav-copyright 
     {
-    font-size: 7px;
+          font-size: 7px;
     }
 }
 
